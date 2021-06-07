@@ -11,6 +11,25 @@ h2{
     font-weight: bold;
     padding: 3rem;
 }
+
+/* Input Section */
+.input-section {
+    margin: 20px;
+    text-align: center;
+}
+.input-section span{
+    padding: 5px 10px;
+}
+.input-section input {
+    width: 25%;
+    padding: 5px;
+}
+#btn {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+/* Display Section */
 .coming-soon {
     min-height: 100vh;
     display: flex;
