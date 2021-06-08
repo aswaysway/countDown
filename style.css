@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 body {
+    background: #acb6e5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: "Lato", sans-serif;
 }
 h2{
@@ -21,12 +24,18 @@ h2{
     padding: 5px 10px;
 }
 .input-section input {
-    width: 25%;
+    width: 150px;
     padding: 5px;
+    background-color: #99d7e0;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 #btn {
     margin-left: 10px;
-    padding: 5px;
+    padding: 8px 15px;
+    background-color: #99d7e0;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 /* Display Section */
