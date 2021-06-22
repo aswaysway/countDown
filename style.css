@@ -30,12 +30,19 @@ h2{
     border: 1px solid white;
     border-radius: 5px;
 }
+.input-section input:hover {
+    background-color: #d3dbff;
+}
 #btn {
     margin-left: 10px;
-    padding: 8px 15px;
+    padding: 7px 15px;
     background-color: #99d7e0;
     border: 1px solid white;
     border-radius: 5px;
+}
+#btn:hover{
+    background-color: #d3dbff;
+    cursor: pointer;
 }
 
 /* Display Section */
@@ -45,6 +52,7 @@ h2{
     align-items: center;
     flex-direction: column;
     justify-content:center;
+    text-align: center;
 
 }
 .countdown {

@@ -1,6 +1,6 @@
 const startCount = () =>{
-    const inputValue = document.getElementById('input-date').value
-    const x = new Date(inputValue).getTime()
+    let inputDate = document.getElementById('input-date').value
+    let x = new Date(inputDate).getTime()
 
     const countdown = () => {
         const countDate = new Date(x).getTime()
